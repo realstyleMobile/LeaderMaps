@@ -237,15 +237,10 @@
 		52601E871ACBED0A0053664F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52601E851ACBED0A0053664F /* LaunchScreen.xib */; };
 		52601E931ACBED0A0053664F /* LeaderMapsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52601E921ACBED0A0053664F /* LeaderMapsTests.m */; };
 		52601F6E1ACC03820053664F /* AplicationMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52601F6C1ACC03820053664F /* AplicationMapViewController.m */; };
-		52601F6F1ACC03820053664F /* AplicationMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52601F6D1ACC03820053664F /* AplicationMapViewController.xib */; };
 		52601F731ACC03A80053664F /* ProjectMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52601F711ACC03A80053664F /* ProjectMapViewController.m */; };
-		52601F741ACC03A80053664F /* ProjectMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52601F721ACC03A80053664F /* ProjectMapViewController.xib */; };
 		52601F781ACC03BF0053664F /* PublicInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52601F761ACC03BF0053664F /* PublicInfoViewController.m */; };
-		52601F791ACC03BF0053664F /* PublicInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52601F771ACC03BF0053664F /* PublicInfoViewController.xib */; };
 		52601F7D1ACC03D80053664F /* SystemSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52601F7B1ACC03D80053664F /* SystemSetViewController.m */; };
-		52601F7E1ACC03D80053664F /* SystemSetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52601F7C1ACC03D80053664F /* SystemSetViewController.xib */; };
 		52601F821ACC03F10053664F /* UrgentMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52601F801ACC03F10053664F /* UrgentMapViewController.m */; };
-		52601F831ACC03F10053664F /* UrgentMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52601F811ACC03F10053664F /* UrgentMapViewController.xib */; };
 		52C354541ACE2F360023F7BD /* map_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C354531ACE2F360023F7BD /* map_bottom.png */; };
 		52C354561ACE2F440023F7BD /* map_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C354551ACE2F440023F7BD /* map_bottom@2x.png */; };
 		52C3545D1ACE2F990023F7BD /* map_china.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C354571ACE2F990023F7BD /* map_china.png */; };
@@ -254,6 +249,7 @@
 		52C354601ACE2F990023F7BD /* map_world@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C3545A1ACE2F990023F7BD /* map_world@2x.png */; };
 		52C354611ACE2F990023F7BD /* map_xj.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C3545B1ACE2F990023F7BD /* map_xj.png */; };
 		52C354621ACE2F990023F7BD /* map_xj@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C3545C1ACE2F990023F7BD /* map_xj@2x.png */; };
+		52C354661ACE40CF0023F7BD /* JBKenBurnsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C354651ACE40CF0023F7BD /* JBKenBurnsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -504,19 +500,14 @@
 		52601E921ACBED0A0053664F /* LeaderMapsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeaderMapsTests.m; sourceTree = "<group>"; };
 		52601F6B1ACC03820053664F /* AplicationMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AplicationMapViewController.h; sourceTree = "<group>"; };
 		52601F6C1ACC03820053664F /* AplicationMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AplicationMapViewController.m; sourceTree = "<group>"; };
-		52601F6D1ACC03820053664F /* AplicationMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AplicationMapViewController.xib; sourceTree = "<group>"; };
 		52601F701ACC03A80053664F /* ProjectMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectMapViewController.h; sourceTree = "<group>"; };
 		52601F711ACC03A80053664F /* ProjectMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectMapViewController.m; sourceTree = "<group>"; };
-		52601F721ACC03A80053664F /* ProjectMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProjectMapViewController.xib; sourceTree = "<group>"; };
 		52601F751ACC03BF0053664F /* PublicInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicInfoViewController.h; sourceTree = "<group>"; };
 		52601F761ACC03BF0053664F /* PublicInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicInfoViewController.m; sourceTree = "<group>"; };
-		52601F771ACC03BF0053664F /* PublicInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PublicInfoViewController.xib; sourceTree = "<group>"; };
 		52601F7A1ACC03D80053664F /* SystemSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemSetViewController.h; sourceTree = "<group>"; };
 		52601F7B1ACC03D80053664F /* SystemSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemSetViewController.m; sourceTree = "<group>"; };
-		52601F7C1ACC03D80053664F /* SystemSetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SystemSetViewController.xib; sourceTree = "<group>"; };
 		52601F7F1ACC03F10053664F /* UrgentMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrgentMapViewController.h; sourceTree = "<group>"; };
 		52601F801ACC03F10053664F /* UrgentMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrgentMapViewController.m; sourceTree = "<group>"; };
-		52601F811ACC03F10053664F /* UrgentMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UrgentMapViewController.xib; sourceTree = "<group>"; };
 		52C354531ACE2F360023F7BD /* map_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_bottom.png; sourceTree = "<group>"; };
 		52C354551ACE2F440023F7BD /* map_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_bottom@2x.png"; sourceTree = "<group>"; };
 		52C354571ACE2F990023F7BD /* map_china.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_china.png; sourceTree = "<group>"; };
@@ -525,6 +516,8 @@
 		52C3545A1ACE2F990023F7BD /* map_world@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_world@2x.png"; sourceTree = "<group>"; };
 		52C3545B1ACE2F990023F7BD /* map_xj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_xj.png; sourceTree = "<group>"; };
 		52C3545C1ACE2F990023F7BD /* map_xj@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_xj@2x.png"; sourceTree = "<group>"; };
+		52C354641ACE40CF0023F7BD /* JBKenBurnsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBKenBurnsView.h; sourceTree = "<group>"; };
+		52C354651ACE40CF0023F7BD /* JBKenBurnsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBKenBurnsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -885,7 +878,6 @@
 			children = (
 				52601F6B1ACC03820053664F /* AplicationMapViewController.h */,
 				52601F6C1ACC03820053664F /* AplicationMapViewController.m */,
-				52601F6D1ACC03820053664F /* AplicationMapViewController.xib */,
 			);
 			path = ApplicationMapController;
 			sourceTree = "<group>";
@@ -895,7 +887,6 @@
 			children = (
 				52601F701ACC03A80053664F /* ProjectMapViewController.h */,
 				52601F711ACC03A80053664F /* ProjectMapViewController.m */,
-				52601F721ACC03A80053664F /* ProjectMapViewController.xib */,
 			);
 			path = ProjectMapController;
 			sourceTree = "<group>";
@@ -905,7 +896,6 @@
 			children = (
 				52601F751ACC03BF0053664F /* PublicInfoViewController.h */,
 				52601F761ACC03BF0053664F /* PublicInfoViewController.m */,
-				52601F771ACC03BF0053664F /* PublicInfoViewController.xib */,
 			);
 			path = PublicInfoController;
 			sourceTree = "<group>";
@@ -915,7 +905,6 @@
 			children = (
 				52601F7A1ACC03D80053664F /* SystemSetViewController.h */,
 				52601F7B1ACC03D80053664F /* SystemSetViewController.m */,
-				52601F7C1ACC03D80053664F /* SystemSetViewController.xib */,
 			);
 			path = SystemSetController;
 			sourceTree = "<group>";
@@ -925,7 +914,6 @@
 			children = (
 				52601F7F1ACC03F10053664F /* UrgentMapViewController.h */,
 				52601F801ACC03F10053664F /* UrgentMapViewController.m */,
-				52601F811ACC03F10053664F /* UrgentMapViewController.xib */,
 			);
 			path = UrgentMapController;
 			sourceTree = "<group>";
@@ -933,8 +921,18 @@
 		52601F3A1ACC02DD0053664F /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				52C354631ACE40CF0023F7BD /* KenBurns */,
 			);
 			path = Lib;
+			sourceTree = "<group>";
+		};
+		52C354631ACE40CF0023F7BD /* KenBurns */ = {
+			isa = PBXGroup;
+			children = (
+				52C354641ACE40CF0023F7BD /* JBKenBurnsView.h */,
+				52C354651ACE40CF0023F7BD /* JBKenBurnsView.m */,
+			);
+			path = KenBurns;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1047,9 +1045,6 @@
 				5257ECF71ACD9B2B00089F6B /* distance@2x.png in Resources */,
 				5257ED2A1ACD9B2B00089F6B /* map_topics@2x.png in Resources */,
 				5257EDB71ACD9B2B00089F6B /* w_default@2x.png in Resources */,
-				52601F791ACC03BF0053664F /* PublicInfoViewController.xib in Resources */,
-				52601F831ACC03F10053664F /* UrgentMapViewController.xib in Resources */,
-				52601F7E1ACC03D80053664F /* SystemSetViewController.xib in Resources */,
 				5257ED4E1ACD9B2B00089F6B /* search_hl@2x.png in Resources */,
 				5257ED1D1ACD9B2B00089F6B /* main_btn_xtsz.png in Resources */,
 				5257ED911ACD9B2B00089F6B /* wi_default.png in Resources */,
@@ -1122,7 +1117,6 @@
 				5257ED691ACD9B2B00089F6B /* w_02@2x.png in Resources */,
 				5257ED191ACD9B2B00089F6B /* main_btn_gz.png in Resources */,
 				5257ECF61ACD9B2B00089F6B /* distance.png in Resources */,
-				52601F6F1ACC03820053664F /* AplicationMapViewController.xib in Resources */,
 				5257ECE91ACD9B2B00089F6B /* back.png in Resources */,
 				5257EC921ACD9B2B00089F6B /* icon@2x.png in Resources */,
 				5257EDB11ACD9B2B00089F6B /* w_16.png in Resources */,
@@ -1144,7 +1138,6 @@
 				5257EC8D1ACD9B2B00089F6B /* icon-small-40.png in Resources */,
 				5257ECFC1ACD9B2B00089F6B /* e_1.png in Resources */,
 				5257ED541ACD9B2B00089F6B /* tools@2x.png in Resources */,
-				52601F741ACC03A80053664F /* ProjectMapViewController.xib in Resources */,
 				5257ED901ACD9B2B00089F6B /* wi_18@2x.png in Resources */,
 				5257ED071ACD9B2B00089F6B /* gz_air.png in Resources */,
 				5257ED3D1ACD9B2B00089F6B /* news.png in Resources */,
@@ -1277,6 +1270,7 @@
 				52601F731ACC03A80053664F /* ProjectMapViewController.m in Sources */,
 				52601F781ACC03BF0053664F /* PublicInfoViewController.m in Sources */,
 				52601E7C1ACBED0A0053664F /* AppDelegate.m in Sources */,
+				52C354661ACE40CF0023F7BD /* JBKenBurnsView.m in Sources */,
 				52601F7D1ACC03D80053664F /* SystemSetViewController.m in Sources */,
 				52601F821ACC03F10053664F /* UrgentMapViewController.m in Sources */,
 				52601E791ACBED0A0053664F /* main.m in Sources */,

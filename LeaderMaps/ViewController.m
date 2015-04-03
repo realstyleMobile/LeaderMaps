@@ -8,11 +8,6 @@
 
 #import "ViewController.h"
 
-#import "AplicationMapViewController.h"
-#import "PublicInfoViewController.h"
-#import "UrgentMapViewController.h"
-#import "ProjectMapViewController.h"
-#import "SystemSetViewController.h"
 
 @interface ViewController ()
 
@@ -23,6 +18,7 @@
 @property (nonatomic,strong) IBOutlet UILabel *tempertureLabel;
 @property (nonatomic,strong) IBOutlet UILabel *dateLabel;
 @property (nonatomic,strong) IBOutlet UIImageView *weatherImageView;
+@property (nonatomic,strong) IBOutlet UILabel *weatherLabel;
 
 @property (nonatomic,strong) IBOutlet UIButton *applicatMapBtn;
 @property (nonatomic,strong) IBOutlet UIButton *publicInfoBtn;
@@ -51,33 +47,9 @@
 }
 
 #pragma mark Btn Action
-- (IBAction)applicatMapAction:(id)sender {
-    
-    NSLog(@"applicatMapAction");
-    AplicationMapViewController *app = [[AplicationMapViewController alloc]initWithNibName:@"AplicationMapViewController" bundle:nil];
-     UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:app];
-    [self.navigationController pushViewController:navi animated:YES];
-    
-}
 
-//- (IBAction)publicInfoAction:(id)sender {
-//    
-//    NSLog(@"publicInfoAction");
-//}
-//
-//- (IBAction)urgentMapAction:(id)sender {
-//    NSLog(@"urgentMapAction");
-//}
-//
-//- (IBAction)projectMapAction:(id)sender {
-//    
-//    NSLog(@"projectMapAction");
-//}
-//
-//- (IBAction)systemSetAction:(id)sender {
-//    
-//    NSLog(@"systemSetAction");
-//}
+
+
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
