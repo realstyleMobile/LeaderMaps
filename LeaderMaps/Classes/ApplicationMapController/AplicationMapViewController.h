@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface AplicationMapViewController : UIViewController
+@property (weak, nonatomic) IBOutlet AGSMapView *mapView;
 
 @end

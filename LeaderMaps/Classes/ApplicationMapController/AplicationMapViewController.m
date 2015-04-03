@@ -7,7 +7,7 @@
 //
 
 #import "AplicationMapViewController.h"
-
+#import "AGSTianDiTuLayer.h"
 @interface AplicationMapViewController ()
 
 @end
@@ -17,8 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor redColor];
     // Do any additional setup after loading the view from its nib.
+    //绑定地图缩放事件
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(respondToEnvChange:) name:@"MapDidEndZooming" object:nil];
+    //电子地图
+    AGSTianDiTuLayer *tiandituLayer = [[AGSTianDiTuLayer alloc] initWithTianDiTuSchema:@"vec"];
+    [self.mapView insertMapLayer:tiandituLayer withName:@"TianDiTu 2d Map" atIndex:0];
 }
 
 - (void)didReceiveMemoryWarning {
